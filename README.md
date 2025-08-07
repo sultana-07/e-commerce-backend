@@ -2,7 +2,7 @@
 
 === Auth Routes ===
 
-#Register
+#Register\n
 POST /user/register
 Body: {
 "role": "buyer" | "seller", // optional, default: "buyer"
