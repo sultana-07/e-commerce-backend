@@ -32,6 +32,6 @@ module.exports.getUserOrder = async (req,res) => {
         .sort({createdAt : -1});
         res.status(201).json(orders)
     } catch (error) {
-        
+        res.status(500).json({error : "error in get user order catch section"})
     }
 }
